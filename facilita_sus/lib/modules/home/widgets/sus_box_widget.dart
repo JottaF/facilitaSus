@@ -9,9 +9,9 @@ class SusBoxWidget extends StatefulWidget {
 }
 
 class _SusBoxWidgetState extends State<SusBoxWidget> {
-  double minHeight = 151;
+  double minHeight = 161;
   double maxHeight = 350;
-  double currentHeight = 151;
+  double currentHeight = 161;
 
   @override
   Widget build(BuildContext context) {
@@ -25,11 +25,11 @@ class _SusBoxWidgetState extends State<SusBoxWidget> {
       },
       child: AnimatedContainer(
         duration: Duration(milliseconds: 600),
-        curve: Curves.bounceOut,
+        curve: Curves.ease,
         width: double.maxFinite,
         height: currentHeight,
         decoration: BoxDecoration(
-            color: Color(0xFF25C8AA),
+            color: Color(0xFF59B3EB),
             borderRadius: BorderRadius.circular(16),
             boxShadow: [
               BoxShadow(

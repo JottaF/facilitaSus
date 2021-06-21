@@ -39,13 +39,13 @@ class ButtonCardWidget extends StatelessWidget {
                 height: 60,
               ),
               SizedBox(
-                height: 5,
+                height: 8,
               ),
               Text(
                 label,
-                style: GoogleFonts.lato(
-                  fontSize: 14,
-                  fontWeight: FontWeight.bold,
+                style: GoogleFonts.roboto(
+                  fontSize: 12,
+                  fontWeight: FontWeight.w600,
                 ),
                 textAlign: TextAlign.center,
               )

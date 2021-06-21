@@ -1,6 +1,7 @@
 import 'package:facilita_sus/modules/home/widgets/button_card_widget.dart';
 import 'package:facilita_sus/modules/home/widgets/sus_box_widget.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_neumorphic/flutter_neumorphic.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -55,15 +56,6 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
         ],
-      ),
-      bottomNavigationBar: Container(
-        height: 105,
-        decoration: BoxDecoration(
-            color: Colors.white,
-            borderRadius: BorderRadius.only(
-              topLeft: Radius.circular(16),
-              topRight: Radius.circular(16),
-            )),
       ),
     );
   }
