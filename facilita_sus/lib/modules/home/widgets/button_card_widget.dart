@@ -44,7 +44,7 @@ class ButtonCardWidget extends StatelessWidget {
               Text(
                 label,
                 style: GoogleFonts.roboto(
-                  fontSize: 12,
+                  fontSize: 11,
                   fontWeight: FontWeight.w600,
                 ),
                 textAlign: TextAlign.center,

@@ -29,7 +29,7 @@ class _SusBoxWidgetState extends State<SusBoxWidget> {
         width: double.maxFinite,
         height: currentHeight,
         decoration: BoxDecoration(
-            color: Color(0xFF59B3EB),
+            color: Color(0xFF219EBC),
             borderRadius: BorderRadius.circular(16),
             boxShadow: [
               BoxShadow(

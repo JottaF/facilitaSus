@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "889236412984",
+    "project_id": "facilita-sus-62854",
+    "storage_bucket": "facilita-sus-62854.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889236412984:android:692c3bb858fd7c475ee4cd",
+        "android_client_info": {
+          "package_name": "com.example.facilita_sus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "889236412984-ijirr0slup37fbih7n32p0skl1isrmbe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.facilita_sus",
+            "certificate_hash": "5a29631e9fe07172b7392d44aa040d3d7cde87ec"
+          }
+        },
+        {
+          "client_id": "889236412984-n6qaqpulv4bf2krofinljm31hilka54i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKwaZB2FWkONeKDFoL2Gn6FsmsK7HC5pU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "889236412984-n6qaqpulv4bf2krofinljm31hilka54i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
